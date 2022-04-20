@@ -16,6 +16,9 @@ irb(main):007:0> days.push("fri")
 .shift Removes the first element of self and returns it.
 irb(main):008:0> days.shift
 => "mon"
-.unshift will add a new item to the beginning of an array. 
+.unshift will add a new item to the beginning of an array.
 irb(main):009:0> days.unshift("sat")
 => ["sat", "tue", "wed", "fri"]
+
+index possitions are reffering to the order number of an element. in my days array "mon" is 0,
+"tue" is 1, "wed" is 2, and "thu"is 3. always start the count at 0.
