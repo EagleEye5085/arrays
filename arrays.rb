@@ -22,3 +22,11 @@ irb(main):009:0> days.unshift("sat")
 
 index possitions are reffering to the order number of an element. in my days array "mon" is 0,
 "tue" is 1, "wed" is 2, and "thu"is 3. always start the count at 0.
+
+irb(main):001:0> days = ["sat", "tue", "wed", "fri"]
+=> ["sat", "tue", "wed", "fri"]
+. delete Deletes all items from self that are equal to obj.
+irb(main):002:0> days.delete("wed")
+=> "wed"
+irb(main):003:0> days
+=> ["sat", "tue", "fri"]
